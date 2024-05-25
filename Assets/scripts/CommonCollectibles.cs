@@ -19,13 +19,13 @@ public class CommonCollectibles : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("your colliding into me mf");
+        Debug.Log("your colliding into me");
         Collect(collision.gameObject);
     }
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("fuk off trigga");
+        Debug.Log(" this is a trigger");
         Collect(other.gameObject);
     }
 }
