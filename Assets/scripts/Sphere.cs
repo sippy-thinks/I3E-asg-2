@@ -6,7 +6,7 @@ public class Sphere : CommonCollectibles
 {
     public override void Collect(GameObject gameObject)
     {
-        gameObject.GetComponent<StarterAssets.FirstPersonController>().MoveSpeed += 5.0f;
+        gameObject.GetComponent<StarterAssets.FirstPersonController>().MoveSpeed += 6.0f;
         Destroy(this);
     }
 }
